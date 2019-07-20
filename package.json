@@ -1,0 +1,19 @@
+{
+  "name": "@irrelon/booleanmap",
+  "version": "0.0.1",
+  "description": "Maps boolean values to binary string sequences and maps those to chosen values",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/*.test.js",
+    "test-watch": "mocha --watch ./tests/*.test.js"
+  },
+  "author": "Irrelon Software Limited",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-config-irrelon": "^1.0.3"
+  }
+}
